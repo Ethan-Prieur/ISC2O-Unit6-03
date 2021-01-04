@@ -3,7 +3,7 @@ function myFunction () {
   let age = document.getElementById('box').value
   age = parseInt(age)
   if (age > 16) {
-    alert('you can see an R rated movie alone');
+    alert('you can see an R rated movie alone')
   } else if (age > 12) {
     alert('you can see a pg 13 movie alone')
   } else if (age > 4) {
